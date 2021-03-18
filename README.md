@@ -1,5 +1,5 @@
 # flink-sql-hdfs-connector
-支持根据数据的事件时间落到对应的分区目录
+flink sql 任务支持根据数据的事件时间写入 hdfs 对应的分区目录
 # 分支说明
 master分支不放代码，分支对应适配相同版本的flink，例如分支 flink-1.10 就仅在flink 1.10 版本上测试通过
 # 使用方法
