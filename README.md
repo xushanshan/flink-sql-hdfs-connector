@@ -30,3 +30,7 @@ CREATE TABLE hdfs_file_sink (
   'connector.write.event-field'='gmt_created'             -- 事件时间列  
 );
 ```
+活在墙国不易，如果项目对您有所帮助且正好您生活富足，请打个赏鼓励一下
+| 微信支付 | 支付宝支付 |
+| :------:| :------: |
+| <img src="https://github.com/xushanshan/xushanshan.github.io/blob/master/images/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81.jpeg" width = "300" height = "200" alt="微信支付" align=center /> | <img src="https://github.com/xushanshan/xushanshan.github.io/blob/master/images/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%94%B6%E6%AC%BE%E7%A0%81.jpeg" width = "300" height = "200" alt="支付宝支付" align=center /> |
