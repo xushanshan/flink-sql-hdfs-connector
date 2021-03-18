@@ -1,5 +1,16 @@
 # flink-sql-hdfs-connector
 支持根据数据的事件时间落到对应的分区目录
+# 分支说明
+master分支不放代码，分支对应适配相同版本的flink，例如分支 flink-1.10 就仅在flink 1.10 版本上测试通过
+# 使用方法
+下载代码编译
+```shell
+cd flink-sql-hdfs-connector
+mvn clean package
+ll target/flink-sql-hdfs-connector-1.10-shaded.jar
+```
+复制 target/flink-sql-hdfs-connector-1.10-shaded.jar 到 flink安装目录的lib下即可使用
+# sql样例
 ```sql
 CREATE TABLE hdfs_file_sink (
   `id`          bigint,
